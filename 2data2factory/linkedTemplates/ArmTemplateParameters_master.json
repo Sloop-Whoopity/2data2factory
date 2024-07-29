@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "2data2factory"
+		},
+		"secondaryudemydatalake_accountKey": {
+			"value": ""
+		},
+		"Synapticsequel_shallowsqlpool_password": {
+			"value": ""
+		},
+		"secondaryudemydatalake_properties_typeProperties_url": {
+			"value": "https://secondaryudemydatalake2.dfs.core.windows.net/"
+		},
+		"Synapticsequel_shallowsqlpool_properties_typeProperties_server": {
+			"value": "synapticsequel.sql.azuresynapse.net"
+		},
+		"Synapticsequel_shallowsqlpool_properties_typeProperties_database": {
+			"value": "shallowsqldb"
+		},
+		"Synapticsequel_shallowsqlpool_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
